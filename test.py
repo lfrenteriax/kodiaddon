@@ -55,7 +55,7 @@ def main():
 	showOk=False
 	timeToWait=nAtime
 	download(chnUrl,chnPtd)
-	xbmcgui.Dialog().ok("inicio", "Presione para continuar")
+	xbmcgui.Dialog().ok("inicio", CWD)
 
 	while not monitor.abortRequested():
 		# Sleep/wait for abort for 10 seconds
